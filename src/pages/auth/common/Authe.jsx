@@ -8,14 +8,14 @@ function Authe({ name }) {
   const navigate = useNavigate();
   const initialValue =
     name === "Login"
-      ? { email: "", password: "", name: "" }
+      ? { email: "", password: "", role: "" }
       : { email: "", password: "" };
   const log = [
     { name: "email", type: "text" },
     { name: "password", type: "password" },
   ];
   const reg = [
-    { name: "name", type: "text" },
+    { name: "role", type: "text" },
     { name: "email", type: "text" },
     { name: "password", type: "password" },
   ];
